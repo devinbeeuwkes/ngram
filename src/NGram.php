@@ -1,8 +1,8 @@
 <?php
 
-namespace Devin;
+namespace TextUtils;
 
-use Devin\Exceptions\InvalidArgumentException;
+use TextUtils\Exceptions\InvalidArgumentException;
 
 class NGram
 {
@@ -21,7 +21,7 @@ class NGram
      * @param int    $n
      * @param string $string
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      */
     public function __construct(int $n, string $string)
     {
@@ -35,7 +35,7 @@ class NGram
      * @param string $text
      * @param int    $n
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
      * @return array
      */
@@ -49,7 +49,7 @@ class NGram
      *
      * @param string $text
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
      * @return array
      */
@@ -63,7 +63,7 @@ class NGram
      *
      * @param string $text
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
      * @return array
      */
@@ -108,9 +108,9 @@ class NGram
      *
      * @param int $n
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
-     * @return \Devin\NGram
+     * @return \TextUtils\NGram
      */
     public function setN(int $n) : NGram
     {
@@ -128,7 +128,7 @@ class NGram
      *
      * @param string $string
      *
-     * @return \Devin\NGram
+     * @return \TextUtils\NGram
      */
     public function setString(string $string) : NGram
     {

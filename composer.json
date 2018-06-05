@@ -1,13 +1,13 @@
 {
-    "name": "DevinBeeuwkes/n-gram",
+    "name": "text-utils/n-gram",
     "description": "PHP Helpers to get n-grams",
     "keywords": [],
-    "homepage": "http://example.com",
+    "homepage": "https://github.com/devinbeeuwkes/ngram",
     "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Devin\\": "src/"
+            "TextUtils\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -15,7 +15,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Devin\\Test\\": "tests/"
+            "TextUtils\\Test\\": "tests/"
         }
     },
     "require": {

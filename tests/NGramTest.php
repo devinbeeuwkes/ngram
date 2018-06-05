@@ -1,6 +1,6 @@
 <?php
 
-use Devin\NGram;
+use TextUtils\NGram;
 
 class CalculatorTest extends \PHPUnit_Framework_TestCase
 {
@@ -12,7 +12,7 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
 
     public function testNMustBeGreaterThanOne()
     {
-        $this->expectException(\Devin\Exceptions\InvalidArgumentException::class);
+        $this->expectException(\TextUtils\Exceptions\InvalidArgumentException::class);
         new NGram(-1, 'foo');
     }
 

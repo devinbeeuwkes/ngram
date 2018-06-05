@@ -1,6 +1,6 @@
 <?php
 
-namespace Devin\Exceptions;
+namespace TextUtils\Exceptions;
 
 class NGramException extends \Exception
 {

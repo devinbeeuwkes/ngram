@@ -1,6 +1,6 @@
 <?php
 
-use Devin\NGram;
+use TextUtils\NGram;
 
 if (! function_exists('bigram')) {
     /**
@@ -8,7 +8,7 @@ if (! function_exists('bigram')) {
      *
      * @param string $text
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
      * @return array
      */
@@ -24,7 +24,7 @@ if (! function_exists('trigram')) {
      *
      * @param string $text
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
      * @return array
      */
@@ -41,7 +41,7 @@ if (! function_exists('ngram')) {
      * @param string $text
      * @param int    $length
      *
-     * @throws \Devin\Exceptions\InvalidArgumentException
+     * @throws \TextUtils\Exceptions\InvalidArgumentException
      *
      * @return array
      */

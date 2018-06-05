@@ -1,6 +1,6 @@
 <?php
 
-namespace Devin\Exceptions;
+namespace TextUtils\Exceptions;
 
 class InvalidArgumentException extends NGramException
 {

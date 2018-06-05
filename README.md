@@ -1,16 +1,14 @@
-# My Awesome Project
+# PHP NGram
 
-This is the catchphrase: what does this project do and how is it unique?
+Generate n-grams for your string.
 
-[![Build Status](https://img.shields.io/travis/PHP-DI/PHP-DI/master.svg?style=flat-square)](https://travis-ci.org/PHP-DI/PHP-DI)
-[![Coverage Status](https://img.shields.io/coveralls/PHP-DI/PHP-DI/master.svg?style=flat-square)](https://coveralls.io/r/PHP-DI/PHP-DI?branch=master)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/PHP-DI/PHP-DI.svg?style=flat-square)](https://scrutinizer-ci.com/g/PHP-DI/PHP-DI/?branch=master)
-[![Latest Version](https://img.shields.io/github/release/PHP-DI/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/PHP-DI/php-di)
-[![Total Downloads](https://img.shields.io/packagist/dt/PHP-DI/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/PHP-DI/php-di)
+[![Build Status](https://img.shields.io/travis/DevinBeeuwkes/ngram/master.svg?style=flat-square)](https://travis-ci.org/DevinBeeuwkes/ngram)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/devinbeeuwkes/ngram/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/devinbeeuwkes/ngram/?branch=master)
+[![Latest Version](https://img.shields.io/github/release/devinbeeuwkes/ngram.svg?style=flat-square)](https://packagist.org/packages/devinbeeuwkes/ngram)
+[![Total Downloads](https://img.shields.io/packagist/dt/devinbeeuwkes/ngram.svg?style=flat-square)](https://packagist.org/packages/devinbeeuwkes/ngram)
 
-Here is an additional quick introduction, if necessary.
 
-## Why?
+## N-grams?
 
 Why does this project exist? Come on, don't delete this part. Fill it.
 Yes it's hard, but it's perhaps the most important part of the README.
@@ -20,18 +18,11 @@ source PHP projects. Of course, feel free to fork it and make your own recipe.
 
 ## Installation
 
-Describe how to install the project/library/framework/…
-
-Make sure your installation instructions work by testing them!
+...
 
 ## Usage
 
-Describe how to use the project. A gif or a short code example is the best
-way to show how it works. Also keep paragraphs short and sentences simple: not
-everybody speaks english well.
-
-For the sake of the example here is how you can use this project template
-as a basis for your own repository:
+...
 
 ```bash
 git clone https://github.com/mnapoli/project-template.git my-project
@@ -42,10 +33,7 @@ rm -rf .git/
 git init
 git add .
 ```
-
-Easy peasy! Now you just have to code.
-
-Make sure your examples work by testing them! I didn't test mine and I should feel ashamed.
+...
 
 ## Contributing
 
@@ -53,7 +41,8 @@ See the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 ## License
 
-Come on, [choose a license](http://choosealicense.com/) already! If you don't know or don't
-care, the MIT license is the most widely used license.
+MIT. Please refer to the [LICENSE](LICENSE) file in this repository.
 
-For *this* project, I choose […drumroll…] the [Do What the Fuck You Want to Public License](http://www.wtfpl.net/).
+
+
+[wiki]: http://en.wikipedia.org/wiki/N-gram
