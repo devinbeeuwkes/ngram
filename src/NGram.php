@@ -12,7 +12,10 @@ class NGram
      * @var int
      */
     protected $n;
-
+    
+    /**
+     * @var string
+     */
     protected $string;
 
     /**
