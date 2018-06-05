@@ -8,6 +8,7 @@ Generate n-grams for your string.
 [![Total Downloads](https://img.shields.io/packagist/dt/text-utils/n-gram.svg?style=flat-square)](https://packagist.org/packages/devinbeeuwkes/ngram)
 
 
+
 ## N-grams?
 
 Why does this project exist? Come on, don't delete this part. Fill it.
